@@ -13,8 +13,17 @@ class _HomePageState extends State<HomePage> {
     var color = Colors.blue.shade500;
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Wscube Flutter"),
+        title: const Text(
+          "Flutter Learning",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+            
+            ),
+        ),
         centerTitle: true,
+        backgroundColor: color,
       ),
       body: Center(
         child: Container(
