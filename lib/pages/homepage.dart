@@ -19,8 +19,7 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
             fontSize: 25,
             fontWeight: FontWeight.bold,
-            
-            ),
+          ),
         ),
         centerTitle: true,
         backgroundColor: color,
@@ -30,11 +29,10 @@ class _HomePageState extends State<HomePage> {
           // We can define width in container as well as height
           width: 350,
           height: 350,
+
           // Aligning Child To Center
-
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12), color: color),
-
+              borderRadius: BorderRadius.circular(20), color: color),
           child: Center(
             // Learning about the text widget style
             child: Column(
