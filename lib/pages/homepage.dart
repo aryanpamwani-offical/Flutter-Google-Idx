@@ -39,6 +39,7 @@ class _HomePageState extends State<HomePage> {
                       fontSize: 15,
                       fontWeight: FontWeight.bold),
                 ),
+                // ClipRReact widget used to add border to image
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: InkWell(
