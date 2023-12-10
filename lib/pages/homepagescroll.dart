@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/components/centerContainer.dart';
+import 'package:myapp/layouts/centerContainer.dart';
 
 class HomePageScroll extends StatefulWidget {
   const HomePageScroll({super.key});
@@ -12,20 +12,7 @@ class _HomePageScrollState extends State<HomePageScroll> {
   @override
   Widget build(BuildContext context) {
     var color = Colors.blue.shade500;
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          "Flutter Learning",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        centerTitle: true,
-        backgroundColor: color,
-      ),
-      body:const SingleChildScrollView(
+    return const SingleChildScrollView(
          child: Center(
            child: Column(
              mainAxisAlignment: MainAxisAlignment.center,
@@ -55,7 +42,7 @@ class _HomePageScrollState extends State<HomePageScroll> {
              ],
            ),
          ),
-       ),
+       
     );
   }
 }
